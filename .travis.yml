@@ -9,7 +9,6 @@ matrix:
   fast_finish: true
 services:
   - mongodb
-  - docker
 script: make travis
 after_success:
   - nvm version
